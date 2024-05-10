@@ -1,0 +1,15 @@
+#taking the input from the user
+x = int(input("write the year you want "))
+
+print("the year is ",x)
+#checking the year whether it is a cnetury or not
+if x %100==0:
+   if(x % 400 == 0):
+      print("the given year is a leap year")
+   else:
+      print("the given year is not a leap year")
+else:
+   if(x%4==0):
+      print("the given year is a leap year")
+   else:
+      print("the given year is not a leap year")
